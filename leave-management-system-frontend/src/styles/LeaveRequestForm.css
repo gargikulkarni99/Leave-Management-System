@@ -1,0 +1,52 @@
+.leave-request-form {
+  font-family: "Arial", sans-serif;
+  font-size: 20px;
+  width: 500px;
+  padding: 20px;
+  margin-top: 80px;
+  margin-right: 100px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.leave-request-element.input {
+  margin-top: 10px;
+  padding-top: 20px;
+}
+
+input,
+textarea,
+select {
+  width: 90%;
+  padding: 10px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator,
+input[type="date"]::-webkit-clear-button {
+  font-size: 1.2em;
+}
+
+button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+button:hover {
+  background-color: #0e8814;
+}

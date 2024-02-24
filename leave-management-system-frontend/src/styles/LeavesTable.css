@@ -1,0 +1,50 @@
+/* AdminPage.css */
+
+.leave-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.leave-item {
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  padding: 10px;
+  flex-direction: row;
+  display: flex;
+  width: 100%;
+}
+
+.leave-item-cell {
+  padding: 20px;
+  border: black;
+}
+
+.employee-name {
+  font-weight: bold;
+}
+
+.date-range {
+  margin-bottom: 5px;
+}
+
+.approve-btn,
+.reject-btn {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  font-size: 16px;
+  padding: 8px 8px;
+  margin-right: 5px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.reject-btn {
+  background-color: #f44336;
+}
+
+.approve-btn:disabled,
+.reject-btn:disabled {
+  background-color: grey;
+  cursor: not-allowed;
+}
